@@ -1,0 +1,75 @@
+---
+archived: true
+status: "Available"
+category: Software Analytics Projects 2025-26
+is_group: true
+keywords:
+- software engineering
+- empirical research
+posted: 2026-06-03
+description: understand how open source projects adopt and use Codes of Conduct as part of their community rules.
+contact:
+  header: Supervisor(s)
+  members:
+  - e.g.sesari@rug.nl
+  - a.rastogi@rug.nl
+title: Understanding Codes of Conduct from GitHub Projects
+
+types:
+- MSc int
+- MSc thesis
+
+---
+Open source software projects are often built by people who work together online from different countries, backgrounds, and experiences. Because contributors may not know each other personally, projects need clear rules about how people should communicate and treat one another.
+
+One way open source projects do this is through a **Code of Conduct**. A Code of Conduct is a document that explains what kind of behaviour is expected, what behaviour is not acceptable, and what should happen if someone breaks the rules. These documents can help projects communicate that they want respectful, safe, and inclusive collaboration.
+
+This master’s thesis project focuses specifically on GitHub repositories that use the **Contributor Covenant Code of Conduct**, one of the most common Code of Conduct templates in open source software. In previous work on this project, we identified repositories that use the Contributor Covenant template, checked whether they were hosted on GitHub, whether they were software-related, and whether the Code of Conduct file was accessible. After filtering, the current dataset contains **277 repositories** with available Contributor Covenant Codes of Conduct.
+
+The student’s main task will be to help clean, extend, and organise this dataset. This includes checking where each Code of Conduct file is located, whether it is stored inside the project repository or linked from somewhere else, and whether the file closely follows the Contributor Covenant template. The student may also help retrieve the commit history of these files to identify when the Code of Conduct was first adopted and whether it changed over time.
+
+The larger aim of the project is to understand how open source projects adopt and use Codes of Conduct as part of their community rules. This can later support research on whether Code of Conduct adoption is related to project-level outcomes, such as contributor participation, team collaboration, or team effectiveness.
+
+### **Possible research questions**
+
+This project may ask:
+
+1.  Where do GitHub projects place their Contributor Covenant Code of Conduct files?
+    
+2.  Do projects use the Contributor Covenant template as-is, or do they adapt it?
+    
+3.  When did projects adopt their Code of Conduct?
+    
+4.  How do Codes of Conduct change over time?
+    
+5.  Are different ways of adopting or adapting a Code of Conduct linked to differences in project activity or contributor participation?
+    
+
+### **Student tasks**
+
+The student may:
+
+*   read basic literature about Codes of Conduct and open source communities;
+    
+*   check and clean the existing list of GitHub repositories;
+    
+*   retrieve Code of Conduct files from selected repositories;
+    
+*   record metadata such as repository name, file name, file path, template type, and adoption date;
+    
+*   collect the commit history of Code of Conduct files;
+    
+*   identify whether the Code of Conduct was changed after adoption;
+    
+*   compare the collected Codes of Conduct with the Contributor Covenant template;
+    
+
+### **Expected skills**
+
+This project is suitable for a student interested in open source software, online communities, and the human side of software engineering. Basic programming skills would be helpful, especially in Python or R, because the student may need to collect and process data from GitHub. However, the project can be adjusted depending on the student’s technical background.
+
+### **Expected contribution**
+
+This project will produce a cleaner dataset of GitHub projects that use the Contributor Covenant Code of Conduct. It can help us better understand how open source projects formally communicate rules for respectful collaboration, and how these rules are adopted or changed over time.
+
+The results may also support future research on whether Codes of Conduct are related to healthier communities, better contributor participation, or lower levels of toxic behaviour.
